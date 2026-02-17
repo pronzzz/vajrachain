@@ -1,0 +1,11 @@
+[package]
+name = "consensus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ledger = { path = "../ledger" }
+crypto = { path = "../crypto" }
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+rand = "0.8"

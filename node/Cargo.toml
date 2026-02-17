@@ -1,0 +1,16 @@
+[package]
+name = "node"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+clap = { version = "4.0", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+libp2p = { version = "0.53", features = ["macros", "tokio", "tcp", "dns", "websocket", "noise", "yamux", "gossipsub", "mdns"] }
+ledger = { path = "../ledger" }
+network = { path = "../network" }
+storage = { path = "../storage" }
+consensus = { path = "../consensus" }
+vm = { path = "../vm" }
