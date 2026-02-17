@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "ledger",
+    "crypto",
+    "consensus",
+    "network",
+    "storage",
+    "vm",
+    "security",
+    "identity",
+    "contracts",
+    "governance",
+    "interop",
+    "node",
+    "cli",
+    "economics", "node",
+]
+resolver = "2"
